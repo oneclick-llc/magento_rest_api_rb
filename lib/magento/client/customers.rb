@@ -20,9 +20,9 @@ module Magento
       end
 
       # Check email availability in system ( this email not exists in magento db )
-      def email_available?(email)
+      def email_available?(email, website_id)
         post_wrapper('/V1/customers/isEmailAvailable',
-                     { customerEmail: email }.to_json,
+                     { customerEmail: email, websiteId: website_id }.to_json,
                      default_headers)
       end
 
