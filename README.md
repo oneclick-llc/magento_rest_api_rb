@@ -7,7 +7,7 @@ This is Ruby wrapper for Magento Shop REST API. It is currently under developmen
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'magento_rest_api_rb', github: 'Lianowar/magento_rest_api_rb'
+gem 'magento_rest_api_rb', github: 'oneclick-llc/magento_rest_api_rb'
 ```
 
 And then execute:
